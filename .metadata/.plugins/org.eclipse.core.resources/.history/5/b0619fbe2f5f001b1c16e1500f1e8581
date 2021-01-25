@@ -11,9 +11,6 @@ public class HomeController
 	public String homePage(Model model)
 	{
 		System.out.println("Index mapping..........");
-		
-		model.addAttribute("name","Sachin Kumar Biswal");
-		
 		return "index";
 		
 	}

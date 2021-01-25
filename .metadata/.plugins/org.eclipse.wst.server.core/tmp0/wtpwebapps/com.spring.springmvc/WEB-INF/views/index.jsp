@@ -8,5 +8,8 @@
 </head>
 <body>
 	<h1>Home Page mapping</h1>
+	
+	<%String name=(String)request.getAttribute("name");%>
+	<h1>Welcome <%= name%></h1>
 </body>
 </html>
